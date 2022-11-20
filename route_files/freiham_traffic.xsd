@@ -1,0 +1,193 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    
+    <!--
+    <interval begin="23400" end="34200">
+        <tazRelation count="3759" from="fh_education" to="bodensee_west_out"/>
+        <tazRelation count="3759" from="bodensee_west_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="autobahn_out"/>
+        <tazRelation count="3759" from="autobahn_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="bodensee_east_out"/>
+        <tazRelation count="3759" from="bodensee_east_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="bodensee_west_out"/>
+        <tazRelation count="3759" from="bodensee_west_in" to="fh_education" />
+        
+        <tazRelation count="3759" from="wiesenfelser_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="wiesenfelser_out"/>
+
+        <tazRelation count="3759" from="prezfelder_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="prezfelder_out"/>
+
+        <tazRelation count="3759" from="aubinger_allee_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="aubinger_allee_out"/>
+    </interval>
+
+
+    <interval begin="45000" end="63000">
+        <tazRelation count="3759" from="fh_education" to="bodensee_west_out"/>
+        <tazRelation count="3759" from="bodensee_west_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="autobahn_out"/>
+        <tazRelation count="3759" from="autobahn_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="bodensee_east_out"/>
+        <tazRelation count="3759" from="bodensee_east_in" to="fh_education"/>
+
+        <tazRelation count="3759" from="fh_education" to="bodensee_west_out"/>
+        <tazRelation count="3759" from="bodensee_west_in" to="fh_education" />
+        
+        <tazRelation count="3759" from="wiesenfelser_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="wiesenfelser_out"/>
+
+        <tazRelation count="3759" from="prezfelder_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="prezfelder_out"/>
+
+        <tazRelation count="3759" from="aubinger_allee_in" to="fh_education"/>
+        <tazRelation count="3759" from="fh_education" to="aubinger_allee_out"/>
+    </interval>
+
+    <interval begin="0" end="86400">
+    
+        <tazRelation count="4600" from="fh_1" to="autobahn_out"/>
+        <tazRelation count="4600" from="autobahn_in" to="fh_1"/>
+        <tazRelation count="1170" from="fh_2" to="autobahn_out"/>
+        <tazRelation count="1170" from="autobahn_in" to="fh_2"/>
+        <tazRelation count="1940" from="fh_3" to="autobahn_out"/>
+        <tazRelation count="1940" from="autobahn_in" to="fh_3"/>
+        <tazRelation count="2290" from="fh_4" to="autobahn_out"/>
+        <tazRelation count="2290" from="autobahn_in" to="fh_4"/>
+
+        
+        <tazRelation count="1610" from="fh_1" to="bodensee_west_out"/>
+        <tazRelation count="1610" from="bodensee_west_in" to="fh_1"/>
+        <tazRelation count="409" from="fh_2" to="bodensee_west_out"/>
+        <tazRelation count="409" from="bodensee_west_in" to="fh_2"/>
+        <tazRelation count="679" from="fh_3" to="bodensee_west_out"/>
+        <tazRelation count="679" from="bodensee_west_in" to="fh_3"/>
+        <tazRelation count="801" from="fh_4" to="bodensee_west_out"/>
+        <tazRelation count="801" from="bodensee_west_in" to="fh_4"/>
+
+        
+        <tazRelation count="1150" from="fh_1" to="bodensee_east_out"/>
+        <tazRelation count="1150" from="bodensee_east_in" to="fh_1"/>
+        <tazRelation count="292" from="fh_2" to="bodensee_east_out"/>
+        <tazRelation count="292" from="bodensee_east_in" to="fh_2"/>
+        <tazRelation count="485" from="fh_3" to="bodensee_east_out"/>
+        <tazRelation count="485" from="bodensee_east_in" to="fh_3"/>
+        <tazRelation count="572" from="fh_4" to="bodensee_east_out"/>
+        <tazRelation count="572" from="bodensee_east_in" to="fh_4"/>
+
+        
+        <tazRelation count="500" from="wiesenfelser_in" to="bodensee_west_out"/>
+        <tazRelation count="500" from="bodensee_west_in" to="wiesenfelser_out" />
+        <tazRelation count="500" from="wiesenfelser_in" to="bodensee_east_out"/>
+        <tazRelation count="500" from="bodensee_east_in" to="wiesenfelser_out" />
+        
+        
+        <tazRelation count="460" from="wiesenfelser_in" to="fh_1"/>
+        <tazRelation count="460" from="fh_1" to="wiesenfelser_out"/>
+        <tazRelation count="117" from="wiesenfelser_in" to="fh_2"/>
+        <tazRelation count="117" from="fh_2" to="wiesenfelser_out"/>
+        <tazRelation count="194" from="wiesenfelser_in" to="fh_3"/>
+        <tazRelation count="194" from="fh_3" to="wiesenfelser_out"/>
+        <tazRelation count="229" from="wiesenfelser_in" to="fh_4"/>
+        <tazRelation count="229" from="fh_4" to="wiesenfelser_out"/>
+        
+       
+        <tazRelation count="230" from="prezfelder_in" to="fh_1"/>
+        <tazRelation count="230" from="fh_1" to="prezfelder_out"/>
+        <tazRelation count="58" from="prezfelder_in" to="fh_2"/>
+        <tazRelation count="58" from="fh_2" to="prezfelder_out"/>
+        <tazRelation count="97" from="prezfelder_in" to="fh_3"/>
+        <tazRelation count="97" from="fh_3" to="prezfelder_out"/>
+        <tazRelation count="114" from="prezfelder_in" to="fh_4"/>
+        <tazRelation count="114" from="fh_4" to="prezfelder_out"/>
+
+        
+        <tazRelation count="1610" from="aubinger_allee_in" to="fh_1"/>
+        <tazRelation count="1610" from="fh_1" to="aubinger_allee_out"/>
+        <tazRelation count="409" from="aubinger_allee_in" to="fh_2"/>
+        <tazRelation count="409" from="fh_2" to="aubinger_allee_out"/>
+        <tazRelation count="679" from="aubinger_allee_in" to="fh_3"/>
+        <tazRelation count="679" from="fh_3" to="aubinger_allee_out"/>
+        <tazRelation count="801" from="aubinger_allee_in" to="fh_4"/>
+        <tazRelation count="801" from="fh_4" to="aubinger_allee_out"/>
+    
+    </interval>
+    
+    -->
+    
+    
+    <interval begin="0" end="86400">
+            
+        <tazRelation count="2300" from="fh_1" to="autobahn_out"/>
+        <tazRelation count="2300" from="autobahn_in" to="fh_1"/>
+        <tazRelation count="585" from="fh_2" to="autobahn_out"/>
+        <tazRelation count="585" from="autobahn_in" to="fh_2"/>
+        <tazRelation count="970" from="fh_3" to="autobahn_out"/>
+        <tazRelation count="970" from="autobahn_in" to="fh_3"/>
+        <tazRelation count="1145" from="fh_4" to="autobahn_out"/>
+        <tazRelation count="1145" from="autobahn_in" to="fh_4"/>
+
+        
+        <tazRelation count="805" from="fh_1" to="bodensee_west_out"/>
+        <tazRelation count="805" from="bodensee_west_in" to="fh_1"/>
+        <tazRelation count="204" from="fh_2" to="bodensee_west_out"/>
+        <tazRelation count="204" from="bodensee_west_in" to="fh_2"/>
+        <tazRelation count="339" from="fh_3" to="bodensee_west_out"/>
+        <tazRelation count="339" from="bodensee_west_in" to="fh_3"/>
+        <tazRelation count="400" from="fh_4" to="bodensee_west_out"/>
+        <tazRelation count="400" from="bodensee_west_in" to="fh_4"/>
+
+        
+        <tazRelation count="575" from="fh_1" to="bodensee_east_out"/>
+        <tazRelation count="575" from="bodensee_east_in" to="fh_1"/>
+        <tazRelation count="146" from="fh_2" to="bodensee_east_out"/>
+        <tazRelation count="146" from="bodensee_east_in" to="fh_2"/>
+        <tazRelation count="242" from="fh_3" to="bodensee_east_out"/>
+        <tazRelation count="242" from="bodensee_east_in" to="fh_3"/>
+        <tazRelation count="286" from="fh_4" to="bodensee_east_out"/>
+        <tazRelation count="286" from="bodensee_east_in" to="fh_4"/>
+
+        
+        <tazRelation count="500" from="wiesenfelser_in" to="bodensee_east_out"/>
+        <tazRelation count="500" from="bodensee_east_in" to="wiesenfelser_out" />
+        <tazRelation count="500" from="wiesenfelser_in" to="bodensee_west_out"/>
+        <tazRelation count="500" from="bodensee_west_in" to="wiesenfelser_out" />
+        
+        
+        <tazRelation count="230" from="wiesenfelser_in" to="fh_1"/>
+        <tazRelation count="230" from="fh_1" to="wiesenfelser_out"/>
+        <tazRelation count="58" from="wiesenfelser_in" to="fh_2"/>
+        <tazRelation count="58" from="fh_2" to="wiesenfelser_out"/>
+        <tazRelation count="97" from="wiesenfelser_in" to="fh_3"/>
+        <tazRelation count="97" from="fh_3" to="wiesenfelser_out"/>
+        <tazRelation count="114" from="wiesenfelser_in" to="fh_4"/>
+        <tazRelation count="114" from="fh_4" to="wiesenfelser_out"/>
+        
+       
+        <tazRelation count="115" from="prezfelder_in" to="fh_1"/>
+        <tazRelation count="115" from="fh_1" to="prezfelder_out"/>
+        <tazRelation count="29" from="prezfelder_in" to="fh_2"/>
+        <tazRelation count="29" from="fh_2" to="prezfelder_out"/>
+        <tazRelation count="48" from="prezfelder_in" to="fh_3"/>
+        <tazRelation count="48" from="fh_3" to="prezfelder_out"/>
+        <tazRelation count="57" from="prezfelder_in" to="fh_4"/>
+        <tazRelation count="57" from="fh_4" to="prezfelder_out"/>
+
+        
+        <tazRelation count="805" from="aubinger_allee_in" to="fh_1"/>
+        <tazRelation count="805" from="fh_1" to="aubinger_allee_out"/>
+        <tazRelation count="204" from="aubinger_allee_in" to="fh_2"/>
+        <tazRelation count="204" from="fh_2" to="aubinger_allee_out"/>
+        <tazRelation count="339" from="aubinger_allee_in" to="fh_3"/>
+        <tazRelation count="339" from="fh_3" to="aubinger_allee_out"/>
+        <tazRelation count="400" from="aubinger_allee_in" to="fh_4"/>
+        <tazRelation count="400" from="fh_4" to="aubinger_allee_out"/>
+
+    </interval>
+</data>
+
+

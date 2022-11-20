@@ -1,0 +1,48 @@
+<tazs>
+    <taz id="fh_living" edges="E66 -E66 E69 -E69 -E70 E70 E67 -E67 -E72 E72 -E65 E65 -E45 E45 -E46 E46 -E47 E47 -E44 E44 -E43 E43 -E48 E48 E50 -E50 -E64 E64 -E49 E49 E51 -E51 -E63 E63 E52 -E52 -E62 E62 E53 -E53 -E61 E61 E54 -E54 -E42 E42 -E56 E56 E55 -E55 -E60 E60 E57 -E41 E41 -E58 E58 E59 -E59 -E40 E40 504565993#1 -504565993#1 -407568052#0 407568052#0 -504565992#0 504565992#0 504565992#1 -504565992#1 504565992#2 -504565992#2 -504565992#3 504565992#3 504565992#4 -504565992#4 407568052#1 -407568052#1 -407568052#2 407568052#2 -504566812#0 504566812#0 -504566812#1 504566812#1 -504566812#2 504566812#2 E14 -E14 -E150 E15 -504566810#0 504566810#0 407581698#1 407581698#2 -407581698#2 -407581698#1"/>
+    <taz id="fh_3" edges="-E65 E65 -E45 E45 -E46 E46 -E47 E47 -E44 E44 -E43 E43 -E48 E48 E50 -E50 -E64 E64 -E49 E49 E51 -E51 -E63 E63 E52 -E52 -E62 E62 E53 -E53 -E61 E61 E54 -E54 -E42 E42 -E56 E56 E55 -E55 -E60 E60 E57 -E41 E41 -E58 E58 E59 -E59 -E40 E40"/>
+    <taz id="fh_2" edges="E66 -E66 E69 -E69 -E70 E70 E67 -E67 -E72 E72"/>
+    <taz id="fh_1" edges="407578432#1 -772719711#0 721302669#2 -721302669#2 721302669#0 -721302669#0 513652433#2 -513652433#2 513652433#1 -513652433#1 -721304712#0 721304712#0 -721304712#1 721304712#1"/>
+    <taz id="fh_4" edges="504565993#1 -504565993#1 -407568052#0 407568052#0 -504565992#0 504565992#0 504565992#1 -504565992#1 504565992#2 -504565992#2 -504565992#3 504565992#3 504565992#4 -504565992#4 407568052#1 -407568052#1 -407568052#2 407568052#2 -504566812#0 504566812#0 -504566812#1 504566812#1 -504566812#2 504566812#2 E14 -E14 -E150 E15 -504566810#0 504566810#0 407581698#1 407581698#2 -407581698#2 -407581698#1"/>
+
+<!-- TAZ Pedistrian Destination -->    
+    <taz id="pasing_p_dropoff" edges="dropoff_lane1 dropoff_lane2"/>
+    <taz id="pasing_p_pickup" edges="pickup_lane1 pickup_lane2"/>
+        
+<!-- TAZ Car Destination -->
+    <taz id="pasing_c" edges="317240329"/>
+    <taz id="mw_a96_out_out" edges="289441726"/>
+    <taz id="mw_a96_out_in" edges="327070358"/>
+    <taz id="mw_a96_in_out" edges="2597456"/>
+    <taz id="mw_a96_in_in" edges="289444419"/>
+    <taz id="mw_a99_out" edges="541602725"/>
+    <taz id="mw_a99_in" edges="55717665"/>
+    <taz id="martinsried" edges ="-384524948#0"/>
+    <taz id="munich" edges="134693374#0 479885266 1061284895#2 -38076570#1"/>
+
+<!-- MIV sinks and source -->
+     <taz id="autobahn_out" edges="3636462"/>
+     <taz id="autobahn_in" edges="-3636462"/>
+
+     <taz id="bodensee_west_out" edges="-341648794#0 4389175#1"/>
+     <taz id="bodensee_west_in" edges="341648794#0 270678964#1 -341648793#0"/>
+
+     <taz id="bodensee_east_out" edges="814323848 -341648793#0"/>
+     <taz id="bodensee_east_in" edges="56222688#1 -341648786#0"/>
+
+    <taz id="wiesenfelser_in" edges="153575259#7"/>
+    <taz id="wiesenfelser_out" edges="-153575259#7"/>
+
+    <taz id="prezfelder_in" edges="-466127484#2"/>
+    <taz id="prezfelder_out" edges="466127484#2"/>
+
+    <taz id="aubinger_allee_in" edges="-E29"/>
+    <taz id="aubinger_allee_out" edges="E29.86"/>
+
+<!-- TAZ General -->    
+    <taz id="fh_education" edges="-721302669#2 -772719711#0 504569020#1"/>
+    <taz id="germering" edges="-30240188"/>
+       
+ <!--   <taz id="depot" edges="depot1 depot2 depot3 depot4"/> -->
+
+</tazs>

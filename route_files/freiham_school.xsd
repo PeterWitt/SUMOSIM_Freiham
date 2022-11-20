@@ -1,0 +1,10 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    <interval begin="23400" end="34200">
+        <tazRelation count="333" from="pasing_p_pickup" to="fh_education"/>
+        <tazRelation count="1095" from="fh_living" to="fh_education"/>
+    </interval>
+    <interval begin="45000" end="63000">
+        <tazRelation count="1095" from="fh_education" to="fh_living"/>
+        <tazRelation count="333" from="fh_education" to="pasing_p_dropoff"/>
+    </interval>
+</data>

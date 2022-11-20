@@ -1,0 +1,105 @@
+<additional>
+    <vType id="shuttle" vClass="taxi" accel="3.43" decel="3.43" carFollowModel="Krauss" sigma="0" tau="1" length="2.5" width="1" maxSpeed="16.67" color="1,0,0" personCapacity="4">
+        <param key="has.taxi.device" value="true"/>
+        <param key="device.taxi.pickUpDuration" value="30"/>
+        <param key="device.taxi.dropOffDuration" value="20"/>
+        <param key="device.taxi.parking" value="true"/>
+        <param key="device.taxi.end" value="100000"/>
+        <param key="device.taxi.dispatch-period" value="60"/>
+    </vType>
+
+         
+
+    <routes>
+        <route id="depot_main1" color="1,1,0" edges="depot_main1"/>
+        <route id="depot_pasing1" color="1,1,0" edges="dropoff_lane1 E22 depot_pasing1"/>
+        <route id="depot_pasing2" color="1,1,0" edges="dropoff_lane2 E21 depot_pasing2"/>
+        <route id="depot_freiham1" color="1,1,0" edges="465242210#3 E290 -E290"/> 
+        <route id="toggle_freiham1" color="1,1,0" edges = "depot_main1 -E13 -E16 -E7 -E68 -E200 -721304712#2 -721304712#1 -721304712#0 513652433#0 513652433#1 513652433#2 513652433#2.78 407568046#0 407568046#1 407568046#2 407568046#20 -E0 -E00 407568046#5 -E59 E41 E42 E43 E44 -E50 -E49 E51 E52 E53 E54 E55 -E41 -E40 E66 E67 E74 -464738721 407578432#1 407578432#1.108 341648790#1 341648797#0 56222688#1 341648793#1 1024680918 1024680918.38 1024679358 E5 E6 E7 E11 depot_main1 -E13"/>
+    </routes> 
+    
+    <parkingArea id="main_park1" lane="depot_main1_0" startPos="1" roadsideCapacity="650" angle="90"/>
+    <parkingArea id="pasing_park1" lane="depot_pasing1_0" startPos="1" roadsideCapacity="5" angle="90"/>
+    <parkingArea id="pasing_park2" lane="depot_pasing2_0" startPos="1" roadsideCapacity="5" angle="90"/>
+
+    
+
+
+
+    <rerouter id="pasing_park1_reroute" edges="depot_pasing1 E22.84 pickup_lane1 E18 E25.13 -E6 -E6.86 -E12 -E16 E11 depot_main1">
+      <interval begin="0" end="9999999">
+         <parkingAreaReroute id="pasing_park1"/>
+         <parkingAreaReroute id="main_park1"/>
+      </interval>
+   </rerouter>
+   
+    <rerouter id="pasing_park2_reroute" edges="depot_pasing2 E21.75 pickup_lane2 E18 E25.13 -E6 -E6.86 -E12 -E16 E11 depot_main1">
+      <interval begin="0" end="9999999">
+         <parkingAreaReroute id="pasing_park2"/>
+         <parkingAreaReroute id="main_park1"/>
+      </interval>
+   </rerouter>
+<!--
+    <rerouter id="freiham_park1_reroute" edges="-E290 -465242210#3 -465242210#2 -E3 -E30 -E2 -E20 -407568046#7 -407568046#6 -407568046#6.67 -407568046#5 E00.1 E0.100 -407568046#2.36 -407568046#1 -407568046#0 -513652433#2 -513652433#1 721304712#0 721304712#1 721304712#2 E20 E6 E7 E11 depot_main1">
+      <interval begin="0" end="9999999">
+         <parkingAreaReroute id="freiham_park1"/>
+         <parkingAreaReroute id="main_park1"/>
+      </interval>
+   </rerouter>
+-->
+
+
+
+<!--
+    <busStop id="dropoff_lane1_1_station" lane="dropoff_lane1_1" startPos="0.5" endPos="37" personCapacity="50"/>
+    <busStop id="dropoff_lane2_1_station" lane="dropoff_lane2_1" startPos="0.5" endPos="38" personCapacity="50"/>
+
+
+    <instantInductionLoop id="E6.86_sens" lane="E6.86_0" pos="3954" file="e1i_4.xml"/>
+    <instantInductionLoop id="dropoff_lane1_sens_in" lane="dropoff_lane1_1" pos="0.00" />
+    <instantInductionLoop id="dropoff_lane1_sens_out" lane="dropoff_lane1_1" pos="37.5" />
+    <instantInductionLoop id="dropoff_lane2_sens_in" lane="dropoff_lane2_1" pos="0.00" />
+    <instantInductionLoop id="dropoff_lane2_sens_out" lane="dropoff_lane2_1" pos="38" />
+-->
+                             
+    <edgeData id="freiham_edge" file="net_dump.xml" period="1800" begin="0" end="87000" excludeEmpty="true"/>
+
+<!--
+    <edgeData id="E65 " file="net_dump.xml"/>
+    <edgeData id=" -E455" file="net_dump.xml"/>
+    <edgeData id="E45" file="net_dump.xml"/>
+    <edgeData id=" -E46" file="net_dump.xml"/>
+    <edgeData id="E46" file="net_dump.xml"/>
+    <edgeData id="-E47" file="net_dump.xml"/>
+    <edgeData id="E47" file="net_dump.xml"/>
+    <edgeData id="-E44" file="net_dump.xml"/>
+    <edgeData id="E44" file="net_dump.xml"/>
+    <edgeData id="-E43" file="net_dump.xml"/>
+    <edgeData id="E43" file="net_dump.xml"/>
+    <edgeData id="-E48" file="net_dump.xml"/>
+    <edgeData id="E48" file="net_dump.xml"/>
+    <edgeData id="-E49" file="net_dump.xml"/>
+    <edgeData id="E49" file="net_dump.xml"/>
+    <edgeData id="-E51" file="net_dump.xml"/>
+    <edgeData id="E51" file="net_dump.xml"/>
+    <edgeData id="-E52" file="net_dump.xml"/>
+    <edgeData id="E52" file="net_dump.xml"/>
+    <edgeData id="-E69" file="net_dump.xml"/>
+    <edgeData id="E69" file="net_dump.xml"/>
+    <edgeData id="-E70" file="net_dump.xml"/>
+    <edgeData id="E70" file="net_dump.xml"/>
+    <edgeData id="-E71" file="net_dump.xml"/>
+    <edgeData id="E71" file="net_dump.xml"/>
+    <edgeData id="E72" file="net_dump.xml"/>
+    <edgeData id="-E72" file="net_dump.xml"/>
+    <edgeData id="E73" file="net_dump.xml"/>
+    <edgeData id="-E73" file="net_dump.xml"/>
+    <edgeData id="-E74" file="net_dump.xml"/>
+    <edgeData id="E74" file="net_dump.xml"/>
+    <edgeData id="504569022" file="net_dump.xml"/>
+    <edgeData id="-504569022" file="net_dump.xml"/>
+-->
+
+</additional>
+
+
