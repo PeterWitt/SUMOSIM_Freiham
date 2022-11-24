@@ -1,0 +1,5 @@
+#ignore net-file 
+freiham.net.xml
+
+#ignore Datafolder 
+/output/Veh*/
