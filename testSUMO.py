@@ -145,7 +145,7 @@ def start_sumo_background_task():
     global prt_shuttle 
     
     sumoBinary = "C:\Program Files (x86)\Eclipse\Sumo\\bin\sumo-gui.exe"
-    sumoCmd = [sumoBinary, "-c", "freiham.sumocfg", "--device.taxi.dispatch-algorithm=greedyShared", "--start", "true" , "--ignore-route-errors", "--device.taxi.idle-algorithm=randomCircling",
+    sumoCmd = [sumoBinary, "-c", "freiham.sumocfg", "--device.taxi.dispatch-algorithm=greedyShared", "--device.taxi.dispatch-algorithm.params=absLossThreshold:240", "--start", "true" , "--ignore-route-errors", "--device.taxi.idle-algorithm=randomCircling",
         "--collision.action=none", "--extrapolate-departpos=true"]
 
     traci.start(sumoCmd)

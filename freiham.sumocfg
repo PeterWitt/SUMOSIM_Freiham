@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="freiham.net.xml"/>
+        <net-file value="..\freiham.net.xml"/>
     <!--    
         <route-files value="osm-test-ped.rou.xml, ..\osm-test_car.rou.xml"/>
     -->
@@ -24,9 +24,10 @@
     </routing>
 
     <taxi_device>
-        <device.taxi.dispatch-algorithm value="greedy" />
+        <device.taxi.dispatch-algorithm.params value="" />
         <device.taxi.dispatch-period value="30" />
-        <device.taxi.idle-algorithm value="stop" />
+        <device.taxi.dispatch-algorithm.output value="taxi.dispatch.out.xml" />
+        <device.taxi.idle-algorithm.output value="taxi.idle.out.xml" />
     </taxi_device>
  
     <report>
@@ -43,6 +44,7 @@
         <fcd-output value="output\fcd_output.xml"/>
         <summary-output value="output\summary.xml"/>
         <tripinfo-output value="output\tripinfo_output.xml"/>
+        <netstate-dump  value="output\net_dump.xml"/>
         <tripinfo-output.write-unfinished value="true"/>
     </output>
 <!--
