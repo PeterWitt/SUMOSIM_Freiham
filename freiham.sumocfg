@@ -26,8 +26,8 @@
     <taxi_device>
         <device.taxi.dispatch-algorithm.params value="" />
         <device.taxi.dispatch-period value="30" />
-        <device.taxi.dispatch-algorithm.output value="taxi.dispatch.out.xml" />
-        <device.taxi.idle-algorithm.output value="taxi.idle.out.xml" />
+        <device.taxi.dispatch-algorithm.output value="output\taxi.dispatch.out.xml" />
+        <device.taxi.idle-algorithm.output value="output\taxi.idle.out.xml" />
     </taxi_device>
  
     <report>
